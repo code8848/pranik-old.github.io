@@ -150,6 +150,15 @@ input, select, textarea {
 			margin: 1em 0 0 0;
 		}
 
+	header_row1 {
+		margin: 0 0 2em 0;
+		height: 1000px; /* or any other height you prefer */
+		}
+		
+		header_row1 > p {
+		margin: 1em 0 0 0;
+		}
+
 	footer {
 		margin: 2em 0 0 0;
 	}
@@ -1995,6 +2004,7 @@ input, select, textarea {
 				font-size: 1em;
 			}
 
+
 /* Icons */
 
 	.icon {
@@ -2642,4 +2652,27 @@ input, select, textarea {
 		text-align: center;
 	}
 
+	/*new aDDED STUFF*/
+	.transparent-image {
+		opacity: 0.6; /* set opacity to 50% */
+	  }
+	/*item_termpapers*/
 	
+
+	.item_1 {
+		box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);
+		margin-bottom: 10px;
+	}
+
+	.item_1 header {
+		background: #fff;
+		margin: 0;
+		padding: 1em 0 1em 0;
+		font-size: 0.8em;
+	}
+
+		.item_1 header h3 {
+			font-size: 1em;
+		}
+	
+		
