@@ -2065,7 +2065,7 @@ input, select, textarea {
 		position: fixed;
 		text-align: right;
 		top: 0;
-		width: 375px;
+		width: 200px !important;
 	}
 
 		#header .top {
@@ -2185,7 +2185,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		margin-left: 375px;
+		margin-left: 0px !important;
 		text-align: center;
 		background-color: #dce3e2;
 		padding: 3em 0 4em 0;
@@ -2215,7 +2215,7 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		margin-left: 375px;
+		margin-left: 0px !important; 
 	}
 
 		#main > section {
@@ -2257,7 +2257,7 @@ input, select, textarea {
 			}
 
 			#main > section.one {
-				background-color: #81918E;
+				background-color: #fff !important;
 				background-image: url("../../images/banner.jpg");
 			}
 
@@ -2674,5 +2674,28 @@ input, select, textarea {
 		.item_1 header h3 {
 			font-size: 1em;
 		}
+	
+
+	#portfolioLink {
+		text-decoration: none; /* Remove default underline */
+		border-bottom: 2px solid #000; /* Add underline effect */
+		padding-bottom: 2px; /* Adjust space between text and underline */
+		color: #000 !important; /* Change text color */
+	}
+	
+	#portfolioLink:hover {
+		color: #00f; /* Change text color on hover */
+	}
+
+
+	.expandable-header {
+		background-color: #ddd !important;
+		padding: 10px !important;
+		cursor: pointer !important;
+	  }
+	  
+	  .expandable-header:hover {
+		background-color: #ccc !important;
+	  }
 	
 		

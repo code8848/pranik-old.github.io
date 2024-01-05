@@ -52,28 +52,28 @@
 			</div>
 
 		<!-- Main -->
-			<div id="main">
+			<div id="main" style="background-color: whitesmoke !important; ">
 
 				<!-- Intro -->
-					<section id="top" class="one dark cover">
-						<div class="container">
+					<section id="top" style="background-color: aliceblue !important; color: black;" class=" cover">
+						<div class="container" style="margin-left: 375px;">
 
 							<header>
-								<h2 class="alt"><strong>Pranik Koirala</strong>  </h2>Transportation Data Analyst</h2>
+								<h2 class="alt"><span style="font-weight: bolder;">Pranik Koirala</strong>  </h2>Transportation Data Analyst</h2>
 								<p>A person-first mindset and extensive experience in transportation research and analysis,
 									 skilled in 
 									 Python, SQL, Tableau, ArcGIS Pro, and network analysis.</p>
 							</header>
 
 							<footer>
-								<a href="#portfolio" class="button scrolly">My Portfolio</a>
+								<a href="#portfolio" id="portfolioLink">My Portfolio</a>
 							</footer>
 
 						</div>
 					</section>
 
 				<!-- Portfolio -->
-					<section id="portfolio" class="two">
+					<section id="portfolio" class="two" style="margin-left: 200px;">
 						<!-------- SECTION-1------------>
 						<div class="container">
 
@@ -82,11 +82,13 @@
 							</header>
 
 							<p>I have worked in multiple <strong>data driven research </strong> projects funded by US department of transportation and Texas Department of transportation through <strong>Texas A&M Transportation Institute</strong> and UrbanResilience.AI Lab.</p>
-							<header>
+							<header id="rs" style="background-color: white !important;" class="expandable-header" onclick="toggleSection('researchSection')">
 								<h3>Research</h3>
+								<i class="fas fa-chevron-down"></i>
 							</header>
 
-							<div class="row">
+							<div class="row" id="researchSection" style="display: none;">
+
 								<div class="col-4 col-12-mobile">
 									<article class="item"><!--ROW-1-COLUMN-1-->
 										<div style="position: relative;">
@@ -112,6 +114,9 @@
 										</header>
 									</article>
 								</div>
+
+								<!-- TODO: Copy from #START to #END and paste above here to clone RESEARCH in the UI -->
+								<!-- #START! -->
 								<div class="col-4 col-12-mobile">
 									<article class="item"><!--ROW-1-COLUMN-2-->
 										<div style="position: relative;">
@@ -125,6 +130,7 @@
 										</header>
 									</article>
 								</div>
+								<!-- #END! -->
 								
 								<div class="col-4 col-12-mobile">
 									
@@ -146,11 +152,16 @@
 						<!--------------- SECTION-2-------------------------->
 						<div class="container">
 
-							<header>
+							<header id="pr" style="background-color: white !important;" class="expandable-header" onclick="toggleSection('projectSection')">
 								<h3>Projects</h3>
+								<i class="fas fa-chevron-down"></i>
 							</header>
 
-							<div class="row">
+							<div class="row" id="projectSection" style="display: none;">
+								
+								
+								<!-- TODO: Copy from #START to #END and paste above here to clone projects in the UI -->
+								<!-- #START! -->
 								<div class="col-4 col-12-mobile"> <!--ROW-1-->
 									<article class="item">
 										<a href="https://github.com/code8848/predicting_strava_count" class="image fit"><img src="images/github.png" alt="" /></a>
@@ -165,6 +176,8 @@
 										</header>
 									</article>
 								</div>
+								<!-- #END! -->
+
 								<div class="col-4 col-12-mobile"><!--ROW-2-->
 									<article class="item">
 										<a href="https://github.com/code8848/micromobility_complaints_data_extraction" class="image fit"><img src="images/github.png" alt="" /></a>
@@ -299,7 +312,7 @@
 					</section>
 
 				<!-- About Me -->
-					<section id="about" class="three">
+					<section id="about" class="three" style="margin-left: 200px ">
 						<div class="container">
 
 							<header>
@@ -367,7 +380,7 @@
 					</section>
 
 				<!-- Contact -->
-					<section id="contact" class="four">
+					<section id="contact" class="four" style="margin-left: 200px">
 						<div class="container">
 
 							<header>
@@ -391,7 +404,7 @@
 			<div id="footer">
 
 				<!-- Copyright -->
-					<ul class="copyright">
+					<ul class="copyright" style="margin-left: 200px">
 						<li>&copy; Pranik Koirala. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 					</ul>
 

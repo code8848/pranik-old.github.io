@@ -6,6 +6,26 @@
 
 (function($) {
 
+    $.fn.toggleSection = function(sectionId) {
+        var section = document.getElementById(sectionId);
+        section.style.display = section.style.display === 'none' || section.style.display === 'flex' ? '' : 'none';
+    };
+
+	$('#rs').on('click', function() {
+        // Call the toggleSection function
+        $.fn.toggleSection('researchSection');
+    });
+
+	$.fn.toggleSection = function(sectionId) {
+        var section = document.getElementById(sectionId);
+        section.style.display = section.style.display === 'none' || section.style.display === 'flex' ? '' : 'none';
+    };
+
+	$('#pr').on('click', function() {
+        // Call the toggleSection function
+        $.fn.toggleSection('projectSection');
+    });
+	
 	var	$window = $(window),
 		$body = $('body'),
 		$nav = $('#nav');
@@ -121,3 +141,7 @@
 				});
 
 })(jQuery);
+
+
+
+  
